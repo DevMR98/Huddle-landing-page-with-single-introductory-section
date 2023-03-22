@@ -33,6 +33,12 @@ img{
     /*footer siempre abajo*/
 }
 
+@media(min-width:480px){
+    .contenedor{
+        text-align: unset;
+    }
+}
+
 .contenedor-header {
     /*
     max-width: 100rem;
@@ -41,10 +47,6 @@ img{
     width:min(80%,100rem);/**/
     margin: 5rem auto 10rem auto;
 }
-
-
-
-
 
 
 body {
